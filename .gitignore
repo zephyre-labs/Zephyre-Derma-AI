@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+venv/
+env/
+
+# Database or local storage
+*.db
+*.sqlite3
+
+# IDE folders
+.vscode/
+.idea/
+
+# Mac OS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Node.js stuff if you have frontend JavaScript later
+node_modules/
+
+# Coverage reports (if you run tests)
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Build folders
+build/
+dist/
+*.egg-info/
+backend/skin_type_model.keras
+backend/closeup-view-human-skin-as-background-closeup-view-human-oily-skin-as-background-263476251 copy.webp
+backend/desktop.ini
+backend/skin_sample.jpg
+backend/test.jpg

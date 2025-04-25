@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Zephyre - Weather Meets Skincare</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ZEPHYRE</h1>
+
+        <h1 class="title">Where Weather Meets Skincare</h1>
+
+        <form id="userForm">
+            <input type="text" id="username" placeholder="Enter your name" required />
+            <input type="text" id="city" placeholder="Enter your city" required />
+            <button type="submit">Analyze</button>
+        </form>
+
+        <p id="greeting"></p>
+
+        <div class="capture-section">
+            <button onclick="captureImage()">📸 Capture Image</button>
+            <video id="video" autoplay></video>
+
+            <img id="preview" alt="Captured Image Preview" />
+        </div>
+        <div id="predictionLabel"></div>
+        <canvas id="confidenceChart"></canvas>
+
+        <div id="results" class="hidden"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
