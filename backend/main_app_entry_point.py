@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from weather import get_weather
 from live_predict_skin import capture_and_predict
 from gemini_api import get_gemini_advice  # 👈 NEW IMPORT
-from api.app import app
+#from api.app import app
 
 # Load environment variables
 load_dotenv()
