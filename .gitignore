@@ -41,3 +41,6 @@ backend/closeup-view-human-skin-as-background-closeup-view-human-oily-skin-as-ba
 backend/desktop.ini
 backend/skin_sample.jpg
 backend/test.jpg
+global_requirements.txt
+global-packages.py
+venv-packages.txt
