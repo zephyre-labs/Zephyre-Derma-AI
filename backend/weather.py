@@ -11,6 +11,7 @@ import os
 # cd "C:\Users\maria selciya\weather-skin-app\frontend"
 # gunicorn -w 4 app:app
 # python app.py
+# python backend/test_flask.py
 
 # Load environment variables from .env file
 load_dotenv()
