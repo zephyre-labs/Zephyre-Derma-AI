@@ -42,5 +42,5 @@ backend/desktop.ini
 backend/skin_sample.jpg
 backend/test.jpg
 global_requirements.txt
-global-packages.py
+global-packages.txt
 venv-packages.txt
