@@ -13,6 +13,9 @@ import os
 # python app.py
 # python backend/test_flask.py
 
+# pip install -r global-packages.txt
+#reinstall all packages of globalpython 
+
 # Load environment variables from .env file
 load_dotenv()
 
