@@ -110,7 +110,11 @@ Make sure you:
 
 ### 🧴 AI-Powered Skincare Suggestions  
 **Step 1 – Personalized Output**
-![Skin Suggestion UI](assets/screenshot_3.png)
+<p align="center">
+  <img src="assets/screenshot_3.png" width="600" />
+  <br/>
+  <i>Figure: AI-generated skincare suggestions based on live skin classification and weather input</i>
+</p>
 
 **Step 2 – Further Recommendations**
 ![Skin Suggestion Follow-up](assets/screenshot_4.png)
@@ -128,11 +132,7 @@ Make sure you:
 **Combined Model Output**
 ![Raw Output 3](assets/screenshot_7.png)
 
-<p align="center">
-  <img src="assets/screenshot_3.png" width="600" />
-  <br/>
-  <i>Figure: AI-generated skincare suggestions based on live skin classification and weather input</i>
-</p>
+
 
 ---
 
