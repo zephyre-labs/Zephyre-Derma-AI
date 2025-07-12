@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 from weather import get_weather
 from live_predict_skin import capture_and_predict
-from gemini_api import get_gemini_advice  # 👈 NEW IMPORT
-#from api.app import app
+from rule_based_bot import get_rule_based_suggestion
+
 
 # Load environment variables
 load_dotenv()
@@ -35,10 +35,9 @@ def main():
         print(f"   Condition  : {condition}")
 
         # Step 4: Gemini AI Advice
-        print("\n🤖 Generating AI-based skincare advice...")
-        gemini_advice = get_gemini_advice(skin_type, condition)
-        print("\n📘 Gemini-Powered Skincare Tips:")
-        print(gemini_advice)
+        print("\n🤖 Generating skincare tips to make it glow ...")
+        advice = get_rule_based_suggestion(skin_type)
+        print(advice)
 
     else:
         print("❌ Failed to fetch weather data. Check your city name or API settings.")

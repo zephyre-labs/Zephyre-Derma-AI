@@ -15,7 +15,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 model_path = os.path.join(os.path.dirname(__file__), "skin_type_model.keras")
 model = load_model(model_path, compile=False)
 # Your custom modules
-from gemini_api import get_gemini_advice
+from rule_based_bot import skin_type_suggestions
 from weather import get_weather
 
 # Flask app
@@ -55,7 +55,7 @@ def analyze():
 
         label, confidence = predict_skin_type(img_array)
         weather = get_weather(city) or "humid"
-        advice = get_gemini_advice(label, weather)
+        advice = get_rule_based_suggestion(label)
 
         return jsonify({
             "status": "success",
