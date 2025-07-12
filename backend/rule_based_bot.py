@@ -233,6 +233,6 @@ def get_rule_based_suggestion(skin_type):
     info = skin_type_suggestions.get(skin_type.lower())
     if info:
         suggestions = info["suggestions"]
-        return "\n".join([f"➯{tip}" for tip in suggestions])
+        return "\n".join([f"➯  {tip}" for tip in suggestions])
     else:
         return "⚠️ Sorry, no suggestions available for this skin type."
